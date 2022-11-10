@@ -1,0 +1,6 @@
+let x = myFunction(6, 3);  
+
+function myFunction(a, b) {    //moltiplicazione
+  return console.log (a * b);  
+          
+}
