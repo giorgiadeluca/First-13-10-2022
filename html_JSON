@@ -13,6 +13,7 @@ fetch ("https://raw.githubusercontent.com/giorgiadeluca/First-13-10-2022/main/JS
     let fullResponse = myJson; 
     console.log(fullResponse);
 
+
     let keys = Object.keys(fullResponse); // estrae le chiavi del dizionario
     for (let k = 0; k < keys.length; k++){ // per ogni chiave
       let currentKey = keys[k]; // estrare l'elemento corrente      
