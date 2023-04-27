@@ -16,7 +16,7 @@ fetch ("https://raw.githubusercontent.com/giorgiadeluca/First-13-10-2022/main/JS
     let keys = Object.keys(fullResponse); // estrae le chiavi del dizionario
     for (let k = 0; k < keys.length; k++){ // per ogni chiave
       let currentKey = keys[k]; // estrare l'elemento corrente      
-      if (currentKey == "div"){ // se l'elemento corrente è un div
+      if (currentKey == "div" || currentKey == "div1"){ // se l'elemento corrente è un div
          let div = document.createElement("div"); // crea un div
          div.id = fullResponse[currentKey]["id"]; // assegna l'id
          div.innerHTML = fullResponse[currentKey]["innerHTML"]; // assegna il contenuto del div
