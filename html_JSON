@@ -5,7 +5,7 @@
 
 <script>
 // legge il file json da github
-fetch ("https://raw.githubusercontent.com/giorgiadeluca/First-13-10-2022/main/JSON") 
+fetch ("https://raw.githubusercontent.com/giorgiadeluca/First-13-10-2022/main/JSON1") 
  .then(response => response.json()) // converte la risposta in un dizionario (json)
  .then(json => parseText(json)) // interpreta il contenuto della risposta
 
